@@ -1,6 +1,6 @@
 produtos = {}
 
-for i in range(1,3):
+for i in range(1,6):
    chave = input(f'Digite o {i}º produto:')
    valor = int(input('Digite o valor do produto acima:'))
    produtos[chave] = valor
